@@ -1,0 +1,224 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Elastic_bulk documentation! &mdash; TFG 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Create_json documentation!" href="create_json.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> TFG
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="keywords.html">Keywords documentation!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ws.html">Grampal WS documentation!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create_json.html">Create_json documentation!</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Elastic_bulk documentation!</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">TFG</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Elastic_bulk documentation!</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/elastic_bulk.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-elastic_bulk">
+<span id="elastic-bulk-documentation"></span><h1>Elastic_bulk documentation!<a class="headerlink" href="#module-elastic_bulk" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-elastic_bulk"></span><dl class="function">
+<dt id="elastic_bulk.decode_nginx_log">
+<code class="descclassname">elastic_bulk.</code><code class="descname">decode_nginx_log</code><span class="sig-paren">(</span><em>_nginx_fd</em><span class="sig-paren">)</span><a class="headerlink" href="#elastic_bulk.decode_nginx_log" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function that parse the source information from a json.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>_nginx_fd (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>): The name of the json file.</p>
+</dd>
+<dt>Returns:</dt><dd><p>Object: The json object generated</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="elastic_bulk.es_add_bulk">
+<code class="descclassname">elastic_bulk.</code><code class="descname">es_add_bulk</code><span class="sig-paren">(</span><em>nginx_file</em><span class="sig-paren">)</span><a class="headerlink" href="#elastic_bulk.es_add_bulk" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function that bulk the information from a json.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>nginx_file (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>): The name of the json file.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="create_json.html" class="btn btn-neutral float-left" title="Create_json documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Hugo Ferreira
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

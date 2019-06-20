@@ -1,0 +1,342 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Keywords documentation! &mdash; TFG 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Grampal WS documentation!" href="ws.html" />
+    <link rel="prev" title="Welcome to main page of the documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> TFG
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Keywords documentation!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ws.html">Grampal WS documentation!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create_json.html">Create_json documentation!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="elastic_bulk.html">Elastic_bulk documentation!</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">TFG</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Keywords documentation!</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/keywords.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-keywords">
+<span id="keywords-documentation"></span><h1>Keywords documentation!<a class="headerlink" href="#module-keywords" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-keywords"></span><dl class="function">
+<dt id="keywords.Concatenate_candidates_grampal">
+<code class="descclassname">keywords.</code><code class="descname">Concatenate_candidates_grampal</code><span class="sig-paren">(</span><em>graph</em>, <em>nodes</em>, <em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#keywords.Concatenate_candidates_grampal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the multiwords from the top nodes of the graph using spacy as service.</p>
+<dl>
+<dt>Args:</dt><dd><p>graph (<cite>igraph</cite>): Graph to be analyse.</p>
+<p>nodes (<code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code>): The list of top nodes.</p>
+<p>text (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>): Text of origin.</p>
+</dd>
+<dt>Returns:</dt><dd><p>nodes (<code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code>): The list of the multiwords.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="keywords.Concatenate_candidates_spacy">
+<code class="descclassname">keywords.</code><code class="descname">Concatenate_candidates_spacy</code><span class="sig-paren">(</span><em>graph</em>, <em>nodes</em>, <em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#keywords.Concatenate_candidates_spacy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the multiwords from the top nodes of the graph using spacy as service.</p>
+<dl>
+<dt>Args:</dt><dd><p>graph (<cite>igraph</cite>): Graph to be analyse.</p>
+<p>nodes (<code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code>): The list of top nodes.</p>
+<p>text (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>): Text of origin.</p>
+</dd>
+<dt>Returns:</dt><dd><p>nodes (<code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code>): The list of the multiwords.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="class">
+<dt id="keywords.OrderedDict">
+<em class="property">class </em><code class="descclassname">keywords.</code><code class="descname">OrderedDict</code><a class="headerlink" href="#keywords.OrderedDict" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="docutils literal notranslate"><span class="pre">OrderectDict</span> <span class="pre">class</span></code></p>
+<p>Creates a new Dictionnary data structure that allows multiple append on the same key.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>Dict :The data structure Dictionnary.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="keywords.Pagerank">
+<code class="descclassname">keywords.</code><code class="descname">Pagerank</code><span class="sig-paren">(</span><em>graph</em><span class="sig-paren">)</span><a class="headerlink" href="#keywords.Pagerank" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use the Google’s pagerank algorithm  to set a value for each node.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>graph (<cite>igraph</cite>): Graph to be analyse.</p>
+</dd>
+<dt>Returns:</dt><dd><p>values (<code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code>): The list of values generated.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="keywords.Sort_occurences">
+<code class="descclassname">keywords.</code><code class="descname">Sort_occurences</code><span class="sig-paren">(</span><em>graph</em><span class="sig-paren">)</span><a class="headerlink" href="#keywords.Sort_occurences" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get an array of the nodes sorted by occurence.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>graph (<cite>igraph</cite>): Graph to be analyse.</p>
+</dd>
+<dt>Returns:</dt><dd><p>nodes (<code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code>): The list of nodes generated.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="keywords.Sort_values">
+<code class="descclassname">keywords.</code><code class="descname">Sort_values</code><span class="sig-paren">(</span><em>graph</em><span class="sig-paren">)</span><a class="headerlink" href="#keywords.Sort_values" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get an array of the nodes sorted by value.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>graph (<cite>igraph</cite>): Graph to be analyse.</p>
+</dd>
+<dt>Returns:</dt><dd><p>nodes (<code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code>): The list of nodes generated.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="keywords.Tnodes">
+<code class="descclassname">keywords.</code><code class="descname">Tnodes</code><span class="sig-paren">(</span><em>graph</em>, <em>T</em><span class="sig-paren">)</span><a class="headerlink" href="#keywords.Tnodes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract the T nodes with higher values.</p>
+<dl>
+<dt>Args:</dt><dd><p>graph (<cite>igraph</cite>): Graph to be analyse.</p>
+<p>T (<code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code>): Number of nodes we want to get from the top.</p>
+</dd>
+<dt>Returns:</dt><dd><p>nodes (<code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code>): The list of nodes generated.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="keywords.create_graph_grampal">
+<code class="descclassname">keywords.</code><code class="descname">create_graph_grampal</code><span class="sig-paren">(</span><em>text</em>, <em>k=2</em><span class="sig-paren">)</span><a class="headerlink" href="#keywords.create_graph_grampal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a graph with the keywords and their links using grampal as service.</p>
+<dl>
+<dt>Args:</dt><dd><p>text (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>): The text of origin.</p>
+<p>k (<code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code>): The correlation value ,by default = 2.</p>
+</dd>
+<dt>Returns:</dt><dd><p>g (<cite>igraph</cite>): The graph generated.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="keywords.create_graph_spacy">
+<code class="descclassname">keywords.</code><code class="descname">create_graph_spacy</code><span class="sig-paren">(</span><em>text</em>, <em>k=2</em><span class="sig-paren">)</span><a class="headerlink" href="#keywords.create_graph_spacy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a graph with the keywords and their links using spacy as service.</p>
+<dl>
+<dt>Args:</dt><dd><p>text (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>): The text of origin.</p>
+<p>k (<code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code>): The correlation value ,by default = 2.</p>
+</dd>
+<dt>Returns:</dt><dd><p>g (<cite>igraph</cite>): The graph generated.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="keywords.custom_tokenizer">
+<code class="descclassname">keywords.</code><code class="descname">custom_tokenizer</code><span class="sig-paren">(</span><em>nlp</em><span class="sig-paren">)</span><a class="headerlink" href="#keywords.custom_tokenizer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Redefine the custom tokenizer of spacy .</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>nlp (<cite>nlp</cite>): The tokenizer from spacy.</p>
+</dd>
+<dt>Returns:</dt><dd><p>nlp (<cite>nlp</cite>): The new custom tokenizer.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="keywords.print_graph">
+<code class="descclassname">keywords.</code><code class="descname">print_graph</code><span class="sig-paren">(</span><em>graph</em>, <em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#keywords.print_graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print the graph generated, it was used for validation on small graph, currently unused .</p>
+<dl>
+<dt>Args:</dt><dd><p>graph (<cite>igraph</cite>): The graph to be printed.</p>
+<p>path (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>): The path.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ws.html" class="btn btn-neutral float-right" title="Grampal WS documentation!" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to main page of the documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Hugo Ferreira
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
