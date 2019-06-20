@@ -1,0 +1,1 @@
+Aquí se guardarán los resultados generador por el algoritmo Textrank

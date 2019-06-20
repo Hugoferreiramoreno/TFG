@@ -1,0 +1,1 @@
+Aquí se generarán los resultados al aplicar un ordenamiento por frecuencia.
