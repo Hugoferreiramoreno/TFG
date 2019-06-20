@@ -23,3 +23,4 @@ A continuacion para trabajar con la API de elasticsearch hay que instalarla medi
 
 "pip install elasticsearch"
 
+El resto de bibliotecas vienen con la instalación predeterminada de anaconda(re,request,sys,os etc)
