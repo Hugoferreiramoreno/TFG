@@ -1,0 +1,30 @@
+\indexentry{keywords (module)@\spxentry{keywords}\spxextra{module}|hyperpage}{3}
+\indexentry{keywords (module)@\spxentry{keywords}\spxextra{module}|hyperpage}{3}
+\indexentry{Concatenate\_candidates\_grampal() (in module keywords)@\spxentry{Concatenate\_candidates\_grampal()}\spxextra{in module keywords}|hyperpage}{3}
+\indexentry{Concatenate\_candidates\_spacy() (in module keywords)@\spxentry{Concatenate\_candidates\_spacy()}\spxextra{in module keywords}|hyperpage}{3}
+\indexentry{OrderedDict (class in keywords)@\spxentry{OrderedDict}\spxextra{class in keywords}|hyperpage}{3}
+\indexentry{Pagerank() (in module keywords)@\spxentry{Pagerank()}\spxextra{in module keywords}|hyperpage}{3}
+\indexentry{Sort\_occurences() (in module keywords)@\spxentry{Sort\_occurences()}\spxextra{in module keywords}|hyperpage}{3}
+\indexentry{Sort\_values() (in module keywords)@\spxentry{Sort\_values()}\spxextra{in module keywords}|hyperpage}{3}
+\indexentry{Tnodes() (in module keywords)@\spxentry{Tnodes()}\spxextra{in module keywords}|hyperpage}{3}
+\indexentry{create\_graph\_grampal() (in module keywords)@\spxentry{create\_graph\_grampal()}\spxextra{in module keywords}|hyperpage}{4}
+\indexentry{create\_graph\_spacy() (in module keywords)@\spxentry{create\_graph\_spacy()}\spxextra{in module keywords}|hyperpage}{4}
+\indexentry{custom\_tokenizer() (in module keywords)@\spxentry{custom\_tokenizer()}\spxextra{in module keywords}|hyperpage}{4}
+\indexentry{print\_graph() (in module keywords)@\spxentry{print\_graph()}\spxextra{in module keywords}|hyperpage}{4}
+\indexentry{ws (module)@\spxentry{ws}\spxextra{module}|hyperpage}{5}
+\indexentry{ws (module)@\spxentry{ws}\spxextra{module}|hyperpage}{5}
+\indexentry{Grampal (class in ws)@\spxentry{Grampal}\spxextra{class in ws}|hyperpage}{5}
+\indexentry{analiza() (ws.Grampal method)@\spxentry{analiza()}\spxextra{ws.Grampal method}|hyperpage}{5}
+\indexentry{analiza\_get() (ws.Grampal method)@\spxentry{analiza\_get()}\spxextra{ws.Grampal method}|hyperpage}{5}
+\indexentry{analiza\_post() (ws.Grampal method)@\spxentry{analiza\_post()}\spxextra{ws.Grampal method}|hyperpage}{5}
+\indexentry{info\_lemma() (ws.Grampal method)@\spxentry{info\_lemma()}\spxextra{ws.Grampal method}|hyperpage}{5}
+\indexentry{info\_orig() (ws.Grampal method)@\spxentry{info\_orig()}\spxextra{ws.Grampal method}|hyperpage}{5}
+\indexentry{info\_syntactic() (ws.Grampal method)@\spxentry{info\_syntactic()}\spxextra{ws.Grampal method}|hyperpage}{6}
+\indexentry{create\_json (module)@\spxentry{create\_json}\spxextra{module}|hyperpage}{7}
+\indexentry{create\_json (module)@\spxentry{create\_json}\spxextra{module}|hyperpage}{7}
+\indexentry{multiple\_json() (in module create\_json)@\spxentry{multiple\_json()}\spxextra{in module create\_json}|hyperpage}{7}
+\indexentry{single\_json() (in module create\_json)@\spxentry{single\_json()}\spxextra{in module create\_json}|hyperpage}{7}
+\indexentry{elastic\_bulk (module)@\spxentry{elastic\_bulk}\spxextra{module}|hyperpage}{9}
+\indexentry{elastic\_bulk (module)@\spxentry{elastic\_bulk}\spxextra{module}|hyperpage}{9}
+\indexentry{decode\_nginx\_log() (in module elastic\_bulk)@\spxentry{decode\_nginx\_log()}\spxextra{in module elastic\_bulk}|hyperpage}{9}
+\indexentry{es\_add\_bulk() (in module elastic\_bulk)@\spxentry{es\_add\_bulk()}\spxextra{in module elastic\_bulk}|hyperpage}{9}
