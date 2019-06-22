@@ -15,6 +15,7 @@ Contents:
    ws
    create_json
    elastic_bulk
+   elastic
 
 
  
