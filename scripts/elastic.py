@@ -12,9 +12,6 @@ from elasticsearch import helpers
 
 
 def concept_extraction(es,list_keywords,mode,model,reach=10000):
-
-	if es or list_keywords or mode or model or reach is None:
-		return None
 	query={}
 	bool={}
 	should={}
@@ -53,9 +50,6 @@ def concept_extraction(es,list_keywords,mode,model,reach=10000):
 	return  es.search(index='concepts',body=query,size= "20")#J
 
 def extract_list(es,list_keywords,mode,model,reach=10000):
-	if es or list_keywords or mode or model or reach is None:
-		return None
-	
 	query={}
 	match={}
 	lemma={}
@@ -98,10 +92,6 @@ def extract_list(es,list_keywords,mode,model,reach=10000):
 	return list
 
 def search_results(es,file):
-	if es is None:
-		return None
-	if file is None:
-		return None
 	if es.indices.exists(index='results_concepts') == False:
 		es.indices.create(index='results_concepts', ignore=400)
 	if es.indices.exists(index='results_list') == False:
@@ -136,8 +126,6 @@ def search_results(es,file):
 		return None
 
 def insert_concept_results(es,file,index_name,data):
-	if es or file or index_name or data is None:
-		return None
 	dic = {}
 	dic["texto"]=file
 	dic["conceptos"]=[]
@@ -148,8 +136,6 @@ def insert_concept_results(es,file,index_name,data):
 	return (es.index(index=index_name, doc_type='doc', body=dic))
 	
 def insert_list_results(es,file,index_name,data):
-	if es or file or index_name or data is None:
-		return None
 	dic = {}
 	dic["texto"]=file
 	dic["list"]=[]
@@ -162,13 +148,12 @@ def insert_list_results(es,file,index_name,data):
 
 if __name__ == "__main__":
 	if len(sys.argv) != 5 :
-		print ("Usage: python elastic file mode model reach")
+		print (len(sys.argv),"Usage: python elastic file mode model reach")
 		sys.exit(1)
 	es = Elasticsearch(hosts = [{'host': 'localhost', 'port': 9200}])
 	
 	search= search_results(es,sys.argv[1])
 	if search is None:
-		print("estoy aqui")
 		dir=os.path.join(os.path.dirname(os.getcwd()),"result","keywords_list",sys.argv[1]+".txt")
 
 		list_keywords=[]
